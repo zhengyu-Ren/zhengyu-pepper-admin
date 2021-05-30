@@ -1,6 +1,10 @@
 {
   "name": "zhengyu-pepper-admin",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "auther": {
+    "name": "任政禹",
+    "email": "roastfish1999@163.com"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,13 +14,20 @@
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vuex": "^4.0.0-0",
+    "qs": "^6.10.1",
+    "element-plus": "latest",
+    "axios": "^0.21.1",
+    "js-cookie": "^2.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "less": "^3.13.0",
+    "less-loader": "^7.1.0",
+    "vue-cli-plugin-element-plus": "0.0.13"
   }
 }
